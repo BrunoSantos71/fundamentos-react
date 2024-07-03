@@ -1,0 +1,10 @@
+.Mega input{
+    font-size: 1.4rem;
+    width: 50px;
+}
+.Numeros{   
+    height: 30px;
+    margin: 10px;
+    background-color: #D3D3D3;
+    justify-content: center;
+}

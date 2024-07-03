@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+
+.calculator {
+  display: grid !important;
+  grid-template-columns: repeat(4 , 25%);
+  grid-template-rows: 1fr 58px 58px 58px, 58px 58px;
+  height: 320px;
+  width: 235px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+body {
+  display: grid !important;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+
+}
